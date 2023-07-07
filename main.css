@@ -1,0 +1,68 @@
+
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Bagel Fat One', cursive;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: url("https://i.pinimg.com/originals/e6/f7/d3/e6f7d34c80ef47899caaf3edb02e72c1.gif");
+        }
+        
+
+        main {
+
+            text-align: center;
+        }
+
+        
+
+
+
+        .spaceman-container {
+            width: 400px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .spaceman-word {
+            margin-top: 20px;
+            font-size: 24px;
+            height: 20%;
+        
+        }
+        
+        .spaceman-guesses {
+            margin-top: 20px;
+            font-size: 18px;
+            height: 20%;
+        }
+        
+        .spaceman-buttons {
+            margin-top: 20px;
+            position: absolute;
+            bottom: 0;
+            display: block;
+        }
+        
+        .spaceman-button {
+            display: inline-block;
+            margin: 5px;
+            padding: 10px;
+            font-size: 18px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            
+        }
+        
+        .spaceman-button:hover {
+            background-color: #666;
+        }
+        
+        .spaceman-image {
+            margin-top: 20px;
+        }
